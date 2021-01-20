@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="zxx" class="no-js">
+
+{% include "head.html" %}
+
+<body>
+	{% include "header.html" %}
+
+	<!-- start banner Area -->
+	
+	<section class="home-banner">
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center justify-content-between">
+				<div class="home-banner-content col-lg-6 col-md-6"  style="margin-top:2.5cm;">
+					<h1>
+						{% trans 'Want to be a Chef?' %}
+					</h1>
+					<p>{% trans 'Give us some information about you and what you cook. We will contact you as soon as posible.' %}</p>
+				</div>
+				<div class="col-lg-6 col-md-6" style="margin-top:3cm;">
+					<form class="form-area " id="myForm" action="{% static "web/chef_form" %}" method="post" class="contact-form text-right">
+						<div class="row">
+							<div class="col-lg-6 form-group">
+								<input name="fullname" placeholder="{% trans 'Enter your name' %}" onfocus="this.placeholder = ''" onblur="this.placeholder = '{% trans 'Enter your name' %}'"
+								 class="common-input mb-20 form-control" required="" type="text">
+
+								 <input name="contactInfo" placeholder="{% trans 'Enter your contact info' %}" onfocus="this.placeholder = ''" onblur="this.placeholder = '{% trans 'Enter your contact info' %}'"
+								 class="common-input mb-20 form-control" required="" type="text">
+
+								 <input name="city" placeholder="{% trans 'City' %}" onfocus="this.placeholder = ''" onblur="this.placeholder = '{% trans 'City' %}'"
+								 class="common-input mb-20 form-control" required="" type="text">
+
+								 <input name="commune" placeholder="{% trans 'Commune' %}" onfocus="this.placeholder = ''" onblur="this.placeholder = '{% trans 'Commune' %}'"
+								 class="common-input mb-20 form-control" required="" type="text">
+							</div>
+							<div class="col-lg-6 form-group">
+								<textarea class="common-textarea form-control" name="message" 
+								placeholder="{% trans 'What kind of food do you cook? How many time have you been cooking? Are you already selling your food?' %}" 
+								onblur="this.placeholder = '{% trans 'What kind of food do you cook? How many time have you been cooking? Are you already selling your food?' %}'"
+								onfocus="this.placeholder = ''" required="" rows="8"></textarea>
+							</div>
+							<div class="col-lg-6 d-flex">
+								<button id="send_button" class="primary-btn" style="float: right;">{% trans 'Submit' %}</button>
+							</div>
+						</div>
+					</form>
+					<div id="msg" class="alert-msg" style="text-align: left;"></div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="feature-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="single-feature">
+					<a href="#" class="title">
+						<span class="lnr lnr-dinner"></span>
+						<h3>{% trans 'Make money from your kitchen' %}</h3>
+					</a>
+					<p>
+						{% trans 'Let your talent for cooking become your income. Choose your best preparations and start earning money.' %}
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-feature">
+					<a href="#" class="title">
+						<span class="lnr lnr-calendar-full"></span>
+						<h3>{% trans 'You set your schedule' %}</h3>
+					</a>
+					<p>
+						{% trans 'Cook whenever you want. You decide when to open and close your new homemade restaurant. With Riko, you are your own boss.' %}
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-feature">
+					<a href="#" class="title">
+						<span class="lnr lnr-rocket"></span>
+						<h3>{% trans 'Start is easy' %}</h3>
+					</a>
+					<p>
+						{% trans 'Just tell us about your cooking. Will not take you more than 5 minutes. After your account activation is complete, you will start earning.' %}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	{% include "scripts.html" %}
+
+</body>
+
+</html>

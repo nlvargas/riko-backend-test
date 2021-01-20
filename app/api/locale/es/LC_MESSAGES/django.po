@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-19 01:57-0300\n"
+"PO-Revision-Date: 2020-09-25 15:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Unknown\n"
+"Language: zxx\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: en_FR\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: templates/web/about.html:17
+msgid ""
+"Our mission is to eliminate the walls of the gastronomic world – by giving a "
+"hundred of talented chefs the opportunity to sell their food and thousand of "
+"costumers to enjoy great dishes for great prices. "
+msgstr ""
+"Nuestra misión es eliminar las barreras del mundo gastronómico - dandole la "
+"oportunidad a cientos de talentosos chefs vender sus preparaciones y la "
+"oportunidad a miles de clientes de disfrutar de una excelente comida y por "
+"un excelente precio."
+
+#: templates/web/about.html:30
+msgid "Your talent, your opportunities"
+msgstr "Tu talento, tus oportunidades"
+
+#: templates/web/about.html:33
+msgid ""
+"We know how overwhelming can be to start your own restaurant. It’s a huge "
+"amount of money and an unnecessary amount of time invested in things that "
+"are not really related with your passion. That’s why we wanna make it easier "
+"for you. We believe in your talent and we are committed to eliminate all the "
+"boundaries who stop your culinary development."
+msgstr ""
+"Sabemos lo difícil que es abrir un restaurante. Necesitas una inmensa "
+"cantidad de dinero y una infinidad de horas invertidas en cosas que no están "
+"para nada relacionadas con tu pasión. Es por esto que lo queremos hacer más "
+"fácil  para ti. Creemos en tu talento y estamos comprometidos a eliminar "
+"todas las barreras que detienen tu crecimiento culinario. "
+
+#: templates/web/about.html:47
+msgid "Just pay for what you ordered"
+msgstr "Solo paga por lo que pediste. "
+
+#: templates/web/about.html:50
+#, python-format
+msgid ""
+"Did you know that all of your favourite food items are delivered to you at "
+"an additional price? Which is around 35%% of the actual price? We hate to "
+"pay extra and we believed that you too. With Riko, all of that it’s over. We "
+"are committed to eliminate all the extra cost associated with your food."
+msgstr ""
+"¿Sabías que con las app de delivery tradicionales tus comidas favoritas son "
+"entregadas con un precio promedio adicional de un 35%%? Nosotros odiamos "
+"pagar extra, y creemos que tú también. Con Riko, todo esto queda en el "
+"olvido. Estamos comprometidos a eliminar todo costo extra asociado con la "
+"comida que amas.  "
+
+#: templates/web/apply.html:18
+msgid "Want to be a Chef?"
+msgstr "¿Quieres convertirte en chef?"
+
+#: templates/web/apply.html:20
+msgid ""
+"Give us some information about you and what you cook. We will contact you as "
+"soon as posible."
+msgstr ""
+"Cuéntanos un poco acerca de ti y de lo que cocinas. Te contactaremos tan "
+"pronto como nos sea posible."
+
+#: templates/web/apply.html:26
+msgid "Enter your name"
+msgstr "Nombre"
+
+#: templates/web/apply.html:29
+msgid "Enter your contact info"
+msgstr "Información de contacto"
+
+#: templates/web/apply.html:32
+msgid "City"
+msgstr "Ciudad"
+
+#: templates/web/apply.html:35
+msgid "Commune"
+msgstr "Comuna"
+
+#: templates/web/apply.html:39
+msgid ""
+"What kind of food do you cook? How many time have you been cooking? Are you "
+"already selling your food?"
+msgstr ""
+"¿Qué tipo de comida cocinas? ¿Hace cuanto tiempo que cocinas? ¿Ya comenzaste a "
+"vender tus preparaciones?"
+
+#: templates/web/apply.html:43
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/web/apply.html:58
+msgid "Make money from your kitchen"
+msgstr "Gana dinero desde tu propia cocina."
+
+#: templates/web/apply.html:61
+msgid ""
+"Let your talent for cooking become your income. Choose your best "
+"preparations and start earning money."
+msgstr ""
+"Deja que tu talento en la cocina se convierta en tu nuevo ingreso. Escoge "
+"tus mejores preparaciones y comienza a ganar dinero."
+
+#: templates/web/apply.html:69
+msgid "You set your schedule"
+msgstr "Tu escoges tu horario "
+
+#: templates/web/apply.html:72
+msgid ""
+"Cook whenever you want. You decide when to open and close your new homemade "
+"restaurant. With Riko, you are your own boss."
+msgstr ""
+"Cocina cuando tu quieras. Tu decides cuando abrir o cerrar tu propio "
+"restaurant. Con Riko, tu eres tu propio jefe. "
+
+#: templates/web/apply.html:80
+msgid "Start is easy"
+msgstr "Comenzar es sencillo"
+
+#: templates/web/apply.html:83
+msgid ""
+"Just tell us about your cooking. Will not take you more than 5 minutes. "
+"After your account activation is complete, you will start earning."
+msgstr ""
+"Cuéntanos un poco acerca de tus preparaciones. No te tomara mas de 5 minutos."
+" Una vez que activemos tu cuenta, podrás comenzar a ganar dinero desde tu "
+"propia cocina."
+
+#: templates/web/head.html:20
+msgid "Riko - Great food, Great prices"
+msgstr "Riko - Buena comida por buenos precios"
+
+#: templates/web/header.html:15
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/web/header.html:16
+msgid "About"
+msgstr "Sobre Nosotros"
+
+#: templates/web/header.html:17
+msgid "I want to be a chef!"
+msgstr "¡Quiero ser chef!"
+
+#: templates/web/index.html:17
+msgid "Buy & Sell"
+msgstr "Compra y vende"
+
+#: templates/web/index.html:17
+msgid "homemade food"
+msgstr "comida hecha en casa"
+
+#: templates/web/index.html:19
+msgid ""
+"Run your own e-restaurant or choose between hundreds of dishes cooked by "
+"talented chefs around you."
+msgstr ""
+"Comienza tu propio e-restaurant o elige entre cientos de platos preparados por los chefs más talentosos de tu zona."
+
+#: templates/web/index.html:26 templates/web/index.html:37
+msgid "Coming Soon"
+msgstr "Pronto"
+
+#: templates/web/index.html:27
+msgid "on App Store"
+msgstr "En App Store"
+
+#: templates/web/index.html:38
+msgid "on Play Store"
+msgstr "En Play Store"
+
+#: templates/web/index.html:55
+msgid "How it works?"
+msgstr "Como funciona?"
+
+#: templates/web/index.html:65
+msgid "Choose your meal"
+msgstr "Escoge tu comida"
+
+#: templates/web/index.html:68
+msgid ""
+"Riko is the easy and fast way to order delicious food from the best e-"
+"restaurants around you. Browse through menu and reviews to find the food you "
+"like and book your delivery."
+msgstr ""
+"Riko es la manera fácil  y sencilla para disfrutar de deliciosa comida de "
+"los mejores restaurantes de comida casera alrededor tuyo. Navega entre "
+"cientos de opciones para encontrar la comida que mas te guste y agenda tu "
+"delivery. "
+
+#: templates/web/index.html:78
+msgid "Easy payment"
+msgstr "Pago sencillo"
+
+#: templates/web/index.html:81
+msgid ""
+"Pay online with credit card. Click, sit back and relax. We will take care of "
+"everything."
+msgstr ""
+"Paga online con tu tarjeta de debito o crédito. Clickea, siéntate y relájate."
+" Nosotros nos encargaremos de todo."
+
+#: templates/web/index.html:97
+msgid "Delivered on time"
+msgstr "Entregado a tiempo"
+
+#: templates/web/index.html:100
+msgid ""
+"Get your food to your door at the exact time that you choose. We deliver, "
+"you enjoy!"
+msgstr ""
+"Recibe tu comida en la puerta de tu casa al horario que tú escojas. Nosotros "
+"entregamos, tu disfrutas!"

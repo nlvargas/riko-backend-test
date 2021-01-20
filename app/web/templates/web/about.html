@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="zxx" class="no-js">
+
+{% include "head.html" %}
+
+<body>
+	{% include "header.html" %}
+
+	<!-- start banner Area -->
+	<section class="home-banner-area2">
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center justify-content-between">
+				<div class="home-banner-content col-lg-12 col-md-10">
+					<h3>
+						{% trans 'Our mission is to eliminate the walls of the gastronomic world – by giving a hundred of talented chefs the opportunity to sell their food and thousand of costumers to enjoy great dishes for great prices. ' %}
+					</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<section class="testimonials-area about-page section-gap-bottom" id="about">
+		<div class="container">
+				<div class="row align-items-center">
+					<div class="col-mg-6 col-lg-6 home-about-right">
+						<h1>
+							{% trans 'Your talent, your opportunities' %}
+						</h1>
+						<p>
+							{% trans 'We know how overwhelming can be to start your own restaurant. It’s a huge amount of money and an unnecessary amount of time invested in things that are not really related with your passion. That’s why we wanna make it easier for you. We believe in your talent and we are committed to eliminate all the boundaries who stop your culinary development.' %}
+						</p>
+					</div>
+					<div class="col-mg-6 col-lg-6 home-about-left">
+						<img class="img-fluid" src="{% static "web/img/onboarding_1.png" %}" alt="">
+					</div>
+				</div>
+
+				<div class="row align-items-center">
+					<div class="col-lg-6 home-about-left">
+						<img class="img-fluid" src="{% static "web/img/about1.png" %}" alt="">
+					</div>
+					<div class="col-lg-5 home-about-right">
+						<h1>
+							{% trans 'Just pay for what you ordered' %}
+						</h1>
+						<p>
+							{% trans 'Did you know that all of your favourite food items are delivered to you at an additional price? Which is around 35% of the actual price? We hate to pay extra and we believed that you too. With Riko, all of that it’s over. We are committed to eliminate all the extra cost associated with your food.' %}
+						</p>
+					</div>
+		</div>
+			
+		</div>
+	</section>
+	
+	{% include "scripts.html" %}
+</body>
+
+</html>

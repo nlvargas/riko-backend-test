@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="zxx" class="no-js">
+
+<!-- start header Area -->
+<header id="header">
+	<div class="container main-menu">
+		<div class="row align-items-center justify-content-between d-flex">
+			<div id="logo">
+				<a href="{% url 'index' %}"><img src="{% static "web/img/logo blanco.png" %}" alt="" title="" width="110" height="45"/></a>
+			</div>
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li class="menu-active"><a href="{% url 'index' %}">{% trans 'Home' %}</a></li>
+					<li><a href="{% url 'about' %}">{% trans 'About' %}</a></li>
+					<li><a href={% url 'apply' %}>{% trans 'I want to be a chef!' %}</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- end header Area -->
